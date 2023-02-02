@@ -1,3 +1,3 @@
 # Dart-Programas
 
-Alguns programas em Dart que eu fiz
+Alguns programas básicos em Dart, com o qual eu estou adquirindo experiências.
