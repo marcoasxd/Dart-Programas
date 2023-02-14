@@ -19,4 +19,9 @@ void main(List<String> args) {
     * 1. dart nomedoarquivo.dart
     * 2. Inserir a informação e dar enter.
   */
+
+  /* O dart possui duas palavras reservadas para definir constantes: 
+    - "final": constantes que são definidas antes da compilação
+    - "const": constante que pode ser definida no momento da compilação
+  */
 }
