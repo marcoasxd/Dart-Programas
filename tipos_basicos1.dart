@@ -28,5 +28,12 @@ void main(List<String> args) {
 
   print(estaChovendo && muitoFrio);
 
+  //--------------------------------- Dynamic --------------------------------
+
+  dynamic x = 'Um texto bem legal';
+  print(x);
+  x = 123;
+  print(x);
+
 
 }
