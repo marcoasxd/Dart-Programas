@@ -32,7 +32,7 @@ void main(List<String> args) {
 
 
   // Set
-  var times = {'Atlético', 'Cruzeiro', 'América', 'Grêmio', 'São Paulo'};
+  Set times = {'Atlético', 'Cruzeiro', 'América', 'Grêmio', 'São Paulo'};
   print(times);
   print(times is Set);
   print(times.contains('América')); // O método .contains irá verificar se existe 'América' dentro do Set. Ele irá retornar nesse caso como "true"
