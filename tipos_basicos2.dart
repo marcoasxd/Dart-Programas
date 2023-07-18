@@ -5,7 +5,11 @@
 */
 
 void main(List<String> args) {
+
+
   // Existem duas formas de criar uma lista em Dart:
+  // O List ACEITA repetições
+
   List aprovados = ['Ana', 'Carlos', 'Daniel', 'Rafael'];
   print(aprovados);
   // Duas formas para acessar os elementos dessa lista: 
@@ -32,9 +36,16 @@ void main(List<String> args) {
 
 
   // Set
+  // O Set NÃO ACEITA repetições!
   Set times = {'Atlético', 'Cruzeiro', 'América', 'Grêmio', 'São Paulo'};
   print(times);
   print(times is Set);
   print(times.contains('América')); // O método .contains irá verificar se existe 'América' dentro do Set. Ele irá retornar nesse caso como "true"
+  times.add('Flamengo'); // Foi adicionado o Flamengo na lista de times
+  print(times);
+  print(times.first); // Retorna o primeiro índice da lista
+  print(times.last); // Retorna o último índice na lista
+
+
   
 }
