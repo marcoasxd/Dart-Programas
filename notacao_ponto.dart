@@ -7,5 +7,8 @@ void main(List<String> args) {
   print(s2.toUpperCase());
   String s3 = s2.padRight(15, "!!!!"); // O padRight irá completar a minha string inserindo 15 "!!!!"
   print(s3);
+  // Ou posso realizar isso tudo em apenas uma única linha! Por isso é chamado de notação ponto. Exemplo: 
+
+  var s5 = "Marco Antonio Mendes".substring(0, 5).toUpperCase().padRight(15, "!!!!");
 
 }
